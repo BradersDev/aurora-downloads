@@ -1,0 +1,14 @@
+Aurora Launcher preview privacy notes
+
+This package contains no user accounts, tokens, worlds or local settings.
+Microsoft sign-in uses Microsoft's authorization flow and official Xbox and
+Minecraft services. Credentials and refresh tokens are not shared in the
+installer. Accounts use the local launcher profile and Windows credential
+storage according to the launcher's Accounts configuration.
+
+Minecraft assets and dependencies are downloaded from their official services
+when you request installation. Optional translation, group sharing and Discord
+features require separate user configuration or opt-in. This installer supplies
+no translation endpoint, group credential or Discord application registration.
+Game and launcher logs remain local. Uninstalling the application preserves
+game data and does not automatically erase saved accounts.

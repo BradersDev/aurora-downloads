@@ -1,0 +1,21 @@
+Aurora Launcher - third-party notices
+
+Aurora's development repository and source are not part of this release.
+Third-party components retain their licenses. See licenses/ and the notices
+within runtime packages and mod JARs.
+
+Components include CPython, PyInstaller (with its distribution exception),
+PySide6/Qt, Shiboken, keyring, minecraft-launcher-lib, Requests and dependencies.
+PySide6/Qt community libraries use their applicable open-source licenses.
+License texts and source/replacement notes are under licenses/Qt.
+These libraries are dynamically loaded and may be replaced with compatible
+modified versions. Nothing here limits rights under third-party licenses,
+including reverse engineering needed to debug modified LGPL components.
+
+The installer uses NSIS; its license is under licenses/NSIS. LunatriusCore
+and Schematica retain their author licenses. Schematica's logo has separate
+CC-BY-ND terms. The Aurora 1.8.9 JAR contains third-party runtime components;
+their notices remain inside the JAR.
+
+No Minecraft game binaries, Java runtime, Microsoft account, client secret
+or paid-game entitlement are included.
